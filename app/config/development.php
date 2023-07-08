@@ -76,7 +76,7 @@
 * Site Base URL with http:// or https:// prefix and trailing slash
 * @var string
 */
-$site = "http://".$_SERVER['HTTP_HOST']."/";
+$site = "http://".$_SERVER['HTTP_HOST']."/seme_framework/seme-framework-master/";
 /**
 * URL parse method
 *   - REQUEST_URI, suitable for Nginx

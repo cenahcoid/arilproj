@@ -1,5 +1,5 @@
 <?php
-class About extends JI_Controller
+class Horror extends JI_Controller
 {
   public function __construct()
   {
@@ -16,10 +16,10 @@ class About extends JI_Controller
     $this->setAuthor('Seme Framework');
 
 
-    $this->putThemeContent("about/home",$data); //pass data to view
-    $this->putJsContent("about/home_bottom",$data); //pass data to view
+    $this->putThemeContent("kategori/horror",$data); //pass data to view
+    $this->putJsContent("kategori/horror_bottom",$data); //pass data to view
 
-    $this->loadLayout("col-1",$data);
+    $this->loadLayout("landing_page",$data);
     $this->render();
   }
 }

@@ -1,5 +1,5 @@
 <?php
-class About extends JI_Controller
+class Action extends JI_Controller
 {
   public function __construct()
   {
@@ -16,8 +16,8 @@ class About extends JI_Controller
     $this->setAuthor('Seme Framework');
 
 
-    $this->putThemeContent("about/home",$data); //pass data to view
-    $this->putJsContent("about/home_bottom",$data); //pass data to view
+    $this->putThemeContent("kategori/action",$data); //pass data to view
+    $this->putJsContent("kategori/action_bottom",$data); //pass data to view
 
     $this->loadLayout("col-1",$data);
     $this->render();
