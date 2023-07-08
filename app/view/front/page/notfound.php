@@ -62,7 +62,7 @@
  }
 </style>
 <div class="container">
-<h1><small style="color: rgb(255, 0, 0);">Error 404</small> Notfound</h1>
+<h1 ><small style="color: rgb(255, 0, 0);">Error 404</small> Notfound</h1>
 </div>
 <div class="jam_analog_malasngoding">
  <div class="xxx">
@@ -76,7 +76,7 @@
         <div class="container">
           <p>Oops, looks like this page doesn't exist</p>
           <hr>
-          <h5>Back to <a href="<?=base_url('')?>">Homepage</a></h5>
+          <h5>Back to <a href="<?=base_url()?>">Homepage</a></h5>
         </div>
     <!-- jQuery, Bootstrap.js, jQuery plugins and Custom JS code -->
     <?php $this->getJsFooter(); ?>

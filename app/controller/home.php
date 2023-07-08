@@ -5,7 +5,7 @@ class Home extends JI_Controller
   {
     parent::__construct();
     $this->setTheme('front');
-    $this->load("a_apikey_model", "aakm");
+  
   }
   public function index()
   {
@@ -15,7 +15,6 @@ class Home extends JI_Controller
     $this->setKeyword('Seme Framework');
     $this->setAuthor('Seme Framework');
 
-    $data['aakm'] = $this->aakm->get();
 
     $this->putThemeContent("home/home",$data); //pass data to view
     $this->putJsContent("home/home_bottom",$data); //pass data to view

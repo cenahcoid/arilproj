@@ -12,9 +12,9 @@
   <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
   <link rel="shortcut icon" href="<?=$this->getIcon()?>">
   <!-- END Icons -->
-
-  <meta name="msapplication-TileColor" content="#353769">
-  <meta name="theme-color" content="#353769">
+  
+  <meta name="msapplication-TileColor" content="#70b785">
+  <meta name="theme-color" content="#70b785">
   <?php $this->getAdditionalBefore()?>
   <?php $this->getAdditional()?>
   <?php $this->getAdditionalAfter()?>

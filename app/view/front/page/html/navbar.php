@@ -1,16 +1,17 @@
 <nav class="navbar navbar-dark" style="background-color: #708090;">
-  <div class="flex-wrap">
-  <a href="#!" class="brand-logo"><i class="material-icons">insert_emoticon</i>Logo</a>
-    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-      <i class="material-icons">menu</i>
-    </a>
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">Action</a></li>
+  <li><a href="#!">School</a></li>
+  <li><a href="#!">Horror</a></li>
+  <li><a href="#!">Romantice</a></li>
+  <li><a href="#!">Fantasi</a></li>
+</ul>
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo">WebRIl</a>
     <ul class="right hide-on-med-and-down">
-      <li><a href="#">Homepage</a></li>
-      <?php if(isset($sess->user->id)){ ?>
-      <li><a href="#">Logout</a></li>
-      <?php } else { ?>
       <li><a href="#">About</a></li>
-      <?php } ?>
+      <!-- Dropdown Trigger -->
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">kategori<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
   </div>
 </nav>

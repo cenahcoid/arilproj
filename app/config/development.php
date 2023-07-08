@@ -84,7 +84,7 @@ $site = "http://".$_SERVER['HTTP_HOST']."/";
 *   - ORIG_PATH_INFO
 * @var string
 */
-$method = "PATH_INFO";//REQUEST_URI,PATH_INFO,ORIG_PATH_INFO,
+$method = "REQUEST_URI";//REQUEST_URI,PATH_INFO,ORIG_PATH_INFO,
 /**
 * Admin Secret re-routing
 * this is alias for app/controller/admin/*
@@ -104,8 +104,8 @@ $cdn_url = '';
 /********************************/
 $db['host']  = 'localhost';
 $db['user']  = 'root';
-$db['pass']  = '';
-$db['name']  = 'seme_framework';
+$db['pass']  = '12345678';
+$db['name']  = 'arilproj';
 $db['port'] = '3306';
 $db['charset'] = 'latin1';
 $db['engine'] = 'mysqli';

@@ -6,137 +6,69 @@
     <div class="col m12 s12">
       <div class="card rounded preload-any">
         <div class="card-content ">
-        <table id="example" class="table table-striped table-bordered" style="width:100%">
+        <table id="table" class="table table-bordered">
         <thead>
             <tr>
-                <th>Type</th>
-                <th>Merk</th>
-                <th>Sepeda</th>
-                <th>Harga</th>
-                <th>Jenis</th>
+                <th>Manhwa</th>
+                <th>Judul</th>
+                <th>Description</th>
+                <th>Genre</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Sepeda Gunung</td>
-                <td>Polygon</td>
-                <td>Collosus Tx3</td>
-                <td>Rp27.000.000</td>
-                <td>Trail</td>
-            </tr>
-            <tr>
-                <td>Sepeda Balap</td>
-                <td>Polygon</td>
-                <td>Strattos S8 Disc Brakes 2021</td>
-                <td>Rp27.000.000</td>
-                <td>Performance</td>
-            </tr>
-            <tr>
-                <td>Sepeda Gunung</td>
-                <td>Thrill</td>
-                <td>Ricochet T140 1.0 (2020)</td>
-                <td>Rp25.830.000</td>
-                <td>Full Suspension</td>
-            </tr>
-            <tr>
-                <td>Sepeda Gunung</td>
-                <td>Polygon</td>
-                <td>Cozmic Rx2 29Er 2016</td>
-                <td>Rp25.500.000</td>
-                <td>Race</td>
-            </tr>
-            <tr>
-                <td>Sepeda Balap</td>
-                <td>Polygon</td>
-                <td>Helios A7</td>
-                <td>Rp25.500.000</td>
-                <td>Race</td>
-            </tr>
-            <tr>
-                <td>Sepeda Gunung</td>
-                <td>Polygon</td>
-                <td>Collosus Sx3</td>
-                <td>Rp25.200.000</td>
-                <td>Performance</td>
-            </tr>
-            <tr>
-                <td>Sepeda Balap</td>
-                <td>Pacific</td>
-                <td>Primum 9.0</td>
-                <td>Rp23.000.000</td>
-                <td>Endurance</td>
-            </tr>
-            <tfoot>
+                <td><img src="images/reality.jpeg" width="100px"></td>
+                <td>Reality Quest</td>
+                <td>Dowan yang selama ini dirundung untuk jadi Joki Game, meninggal karena kebanyakan main game?! Tapi dia kembali hidup dan tiba-tiba muncul quest di depannya! Dan questnya benar-benar terasa nyata!</td>
+                <td>School,Comendi & Romantice</td>
 
+            </tr>
+            <tr>
+                <td><img src="images/dom.jpg" width="100px"></td>
+                <td>Wind Breaker</td>
+                <td>Jahyun, seorang murid teladan di sekolah yang senang bersepeda sendirian. Namun, karena kemampuannya yang hebat dalam bersepeda, ia terus berhadapan dengan crew sepeda di sekitarnya. Drama jalanan tentang remaja-remaja yang memimpikan kebebasan</td>
+                <td>Olahraga,School & Romantice</td>
+            </tr>
+            <tr>
+                <td><img src="images/sohyun.jpg" width="100px"></td>
+                <td>Questism</td>
+                <td>Kim Soohyun adalah anak SMA yang menjadi korban bully disekolahnya namun tidak separah Dajoon di manhwa No to Die. Ia adalah pribadi yang mengejutkannya masih cukup ceria dibanding korban bully lainnya yang penuh dengan aura gelap.
+
+Lelah menjadi korban bully, Soohyun membayangkan betapa mudahnya jika di duniannya menerapkan sistem quest. Dimana manusia akan mendapatkan hadiah secara instan ketika menyelesaikan misi quest tersebut.</td>
+                <td>School & Action</td>
+            </tr>
+            <tr>
+                <td><img src="images/lookism.jpg" width="100px"></td>
+                <td>Lookism</td>
+                <td>Lookism mengisahkan tentang seorang remaja laki-laki bernama Park Hyung Seok yang mengalami bully penampilannya yang dianggap tidak menarik. Bully yang begitu parah membuatnya memutuskan untuk pindah rumah dan sekolah. Tak disangka, keputusan pindah itu ternyata benar-benar mengubah kehidupan Park Hyung Seok.</td>
+                <td>School,Romantice,MartialArcs,Action & Comendi</td>
+            </tr>
+            <tr>
+                <td><img src="images/managerkim.jpg" width="100px"></td>
+                <td>Manager Kim</td>
+                <td>Manhwa Manager Kim menceritakan tentang seorang Agen khusus bernama Kim yang merupakan anggota terbaik dalam tim khusus tersebut.
+
+Dikenal dengan kemampuan yang luar biasa ia terkenal sering kali menyelesaikan masalah dengan mudah namun Kim memutuskan untuk berhenti dari pekerjaannya</td>
+                <td>Action</td>
+            </tr>
+            <tr>
+                <td><img src="images/yobin.png" width="100px"></td>
+                <td>How To Fight</td>
+                <td>Secara garis besar, manhwa atau komik How to Fight bercerita tentang seorang tokoh anak laki-laki bernama Hobin yang dikenal lemah. Karena fisiknya yang lemah, Hobin sering dianggap sebagai pecundang di sekolahnya. Tak berhenti di situ, Hobin juga ditindas dan menjadi korban bully di sekolahnya.</td>
+                <td>School & Action</td>
+            </tr>
+            <tr>
+                <td><img src="images/studygrup.jpg" width="100px"></td>
+                <td>Study Group</td>
+                <td>Manhwa yang berjudul Study Group ini merupakan karya dari komikus Hyung Wook Shin. Dimana manhwa ini menceritakan tentang ada seorang anak yang memiliki tampilan culun dan ingin belajar di sekolah yang isinya adalah para berandalan.
+
+Walaupun dia memiliki tampilan yang culun, akan tetapi dia ini sangat jago berkelahi. Diketahui bahwa dia memiliki kekuatan tersebut dari olahraga secara diam – diam tanpa diketahui oleh orang tuanya, bahkan dia merupakan fans dari Bruce Lee.</td>
+                <td>School & Comendi</td>
+            </tr>
+            </tbody>
+            <tfoot>
             </tfoot>
             </table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="row">
-  <div class="col-sm-3">
-    <div class="card">
-      <div class="card-body">
-    <div class="col m12 s12">
-      <div class="card rounded preload-any">
-        <div class="card-content ">
-            <table id="example" class="table table-striped table-bordered" style="width:100%">
-            <thead>
-            <tr>
-                <th>Type</th>
-                <th>Merk</th>
-                <th>Sepeda</th>
-                <th>Harga</th>
-                <th>Jenis</th>
-            </tr>
-            </tbody>
-
-            </thead>
-            <tbody>
-            <tr>
-                <td>Sepeda City</td>
-                <td>Selis</td>
-                <td>Tornado</td>
-                <td>Rp21.000.000</td>
-                <td>Ebike</td>
-            </tr>
-            <tr>
-                <td>Sepeda Balap</td>
-                <td>Pacific</td>
-                <td>Whizz</td>
-                <td>Rp20.500.000</td>
-                <td>Endurance</td>
-            </tr>
-            <tr>
-                <td>Sepeda Balap</td>	
-                <td>Polygon</td>
-                <td>Strattos S7 2020</td>
-                <td>Rp19.850.000</td>
-                <td>Performance</td>
-            </tr>
-            <tr>
-                <td>Sepeda Balap</td>
-                <td>Pacific</td>
-                <td>Primum 7.0 700C</td>
-                <td>Rp18.800.000</td>
-                <td>Endurance</td>
-            </tr>
-            <tr>
-                <td>Sepeda Balap</td>
-                <td>Polygon</td>
-                <td>Helios A5 2015</td>
-                <td>Rp15.000.000</td>
-                <td>Performance</td>
-            </tr>
-            </tbody>
-        <tfoot>
-        </tfoot>
-    </table> 
           </div>
          </div>
         </div>

@@ -22,5 +22,8 @@
       });
       <?php $this->getJsContent(); ?>
     </script>
+    <script>
+      $(".dropdown-trigger").dropdown();
+    </script>
   </body>
 </html>
