@@ -4,7 +4,7 @@ class About extends JI_Controller
   public function __construct()
   {
     parent::__construct();
-    $this->setTheme('front');
+    $this->setTheme('history');
   
   }
   public function index()
@@ -19,7 +19,7 @@ class About extends JI_Controller
     $this->putThemeContent("about/home",$data); //pass data to view
     $this->putJsContent("about/home_bottom",$data); //pass data to view
 
-    $this->loadLayout("col-1",$data);
+    $this->loadLayout("col-2",$data);
     $this->render();
   }
 }

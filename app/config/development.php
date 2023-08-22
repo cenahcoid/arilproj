@@ -84,7 +84,7 @@ $site = "http://".$_SERVER['HTTP_HOST']."/seme_framework/seme-framework-master/"
 *   - ORIG_PATH_INFO
 * @var string
 */
-$method = "REQUEST_URI";//REQUEST_URI,PATH_INFO,ORIG_PATH_INFO,
+$method = "PATH_INFO";//REQUEST_URI,PATH_INFO,ORIG_PATH_INFO,
 /**
 * Admin Secret re-routing
 * this is alias for app/controller/admin/*

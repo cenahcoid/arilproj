@@ -5,11 +5,9 @@
     <!-- Panggil view component navbar -->
     <?php $this->getThemeElement('page/html/navbar', $__forward) ?>
 
-    <?php $this->getThemeElement('page/html/body', $__forward) ?>
-
-    <div class="container-fluid">
+    <?php $this->getThemeElement('page/html/carousel', $__forward) ?>
+    
     <?php $this->getThemeContent() ?>
-    </div>
 
     <?php $this->getThemeElement('page/html/footer',$__forward); ?>
 
@@ -27,5 +25,10 @@
     <script>
       $(".dropdown-trigger").dropdown();
     </script>
+     <script type='text/javascript'>
+    $(document).ready(function(){  
+      $('.carousel').carousel();  
+    });
+   </script>
   </body>
 </html>

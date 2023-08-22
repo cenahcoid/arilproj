@@ -1,6 +1,7 @@
 
 <footer class="page-footer" style="background-color: #708090;">
-       <div class="row">
+      <div class="container">
+        <div class="row">
           <div class="col l6 s12">
             <h5 class="white-text">wind Breaker</h5>
             <p class="grey-text text-lighten-4">Dibuat di Bandung</p>
@@ -16,7 +17,8 @@
         </div>
       </div>
       <div class="footer-copyright">
-          <p class="center-align">© 2021 Copyright 2023/2024</p>
+        <div class="container">
+          <center>© 2021 Copyright 2023/2024</center>
         </div>
+      </div>
     </footer>
-    </div>

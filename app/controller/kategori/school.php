@@ -1,5 +1,5 @@
 <?php
-class Action extends JI_Controller
+class School extends JI_Controller
 {
   public function __construct()
   {
@@ -16,8 +16,8 @@ class Action extends JI_Controller
     $this->setAuthor('Seme Framework');
 
 
-    $this->putThemeContent("kategori/action",$data); //pass data to view
-    $this->putJsContent("kategori/action_bottom",$data); //pass data to view
+    $this->putThemeContent("kategori/school",$data); //pass data to view
+    $this->putJsContent("kategori/school_bottom",$data); //pass data to view
 
     $this->loadLayout("col-3",$data);
     $this->render();

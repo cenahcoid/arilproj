@@ -10,12 +10,11 @@
     <a href="#!" class="brand-logo">WebRIl</a>
     <ul class="right hide-on-med-and-down">
       <li><a href="<?php echo base_url('about');?>">About</a></li>
+      <li><a href="<?php echo base_url('home');?>">Home</a></li>
       <!-- Dropdown Trigger -->
-      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">kategori<i class="material-icons right">arrow_drop_down</i></a></li>
-      <li><a href="<?=base_url('login'); ?>"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Kategori<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
   </div>
 </nav>
-
 
 

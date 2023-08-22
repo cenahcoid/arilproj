@@ -4,7 +4,7 @@ class Horror extends JI_Controller
   public function __construct()
   {
     parent::__construct();
-    $this->setTheme('front');
+    $this->setTheme('dropdown');
   
   }
   public function index()
@@ -19,7 +19,7 @@ class Horror extends JI_Controller
     $this->putThemeContent("kategori/horror",$data); //pass data to view
     $this->putJsContent("kategori/horror_bottom",$data); //pass data to view
 
-    $this->loadLayout("landing_page",$data);
+    $this->loadLayout("col-3",$data);
     $this->render();
   }
 }

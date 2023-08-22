@@ -5,7 +5,6 @@ class Dashboard extends JI_Controller
   {
     parent::__construct();
     $this->setTheme('front');
-
   }
   public function index()
   {
@@ -20,7 +19,7 @@ class Dashboard extends JI_Controller
     $this->setKeyword('Seme Framework');
     $this->setAuthor('Seme Framework');
 
-    $this->putThemeContent("dasboard/home",$data); //pass data to view
+    $this->putThemeContent("dashboard/home",$data); //pass data to view
 
     $this->loadLayout("col-1",$data);
     $this->render();
